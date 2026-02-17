@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.parent {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card p {
+  margin: 20px 0;
+}
+
+.card button {
+  font-weight: 500;
+  padding: 10px 5px;
+  color: black;
+  background-color: wheat;
+  border-radius: 5px;
+  border: none;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #222;
+}
