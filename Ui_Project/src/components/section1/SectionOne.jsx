@@ -1,11 +1,11 @@
 import Navbar from "./Navbar";
 import PageOneContent from "./PageOneContent";
 
-const SectionOne = () => {
+const SectionOne = (props) => {
   return (
     <div className=" w-full py-4 px-6 ">
       <Navbar />
-      <PageOneContent />
+      <PageOneContent users={props.users} />
     </div>
   );
 };
