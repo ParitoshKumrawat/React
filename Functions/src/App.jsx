@@ -1,7 +1,18 @@
-import React from "react";
+// onClick
+// onDoubleClick
+// onMouseEnter
+{
+  /* <button
+  onMouseEnter={()=> {
+    console.log("hello");
+  }}
+>
+  Button
+</button> */
+}
 
 const App = () => {
-  return <div>App</div>;
+  return <div></div>;
 };
 
 export default App;
