@@ -69,7 +69,7 @@ const App = () => {
                 className="relative h-70 w-50 flex flex-col justify-between items-start text-black rounded-2xl py-11 px-4 bg-cover bg-[url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png')] overflow-auto "
               >
                 <div className="p-2">
-                  <h1 className="font-medium leading-tight text-2xl text-bold font-bold">
+                  <h1 className="leading-tight text-2xl text-bold font-bold">
                     {elem.tittle}
                   </h1>
                   <p className="text-gray-600 text-lg leading-tight font-medium mt-5">
