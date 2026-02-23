@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  text: gray;
+  text: bold;
+  font-size: 40px;
+  background-color: rgb(99, 126, 123);
+  height: 100px;
+  width: 200px;
+  padding: 10px;
+  margin: 20px;
+}
