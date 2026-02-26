@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+
+  background-color: #5a84f0;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.nav div {
+  display: flex;
+  gap: 40px;
+}
